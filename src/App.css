@@ -1,0 +1,27 @@
+body{
+  text-align: center;
+  color: black;
+}
+
+.edu{
+  color:#f5f5f5;
+ background-color:#0c2461;
+   border-color: #6ab04c;
+   border-radius: 30px;
+   border-style: solid;
+   border-width: 6px;
+
+}
+
+.edu-container{
+  margin-top: 40px;
+ display: flex;
+justify-content: space-between;
+
+}
+
+.connects{
+  display: flex;
+  justify-content: space-between;
+}
+
