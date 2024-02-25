@@ -22,7 +22,7 @@ return(
 <Typography style={{color:'#0c2461', fontSize: '35px'}}> <strong> Connect with me</strong> </Typography><br />
 <Link  href='https://www.linkedin.com/in/fawas-ajibade-80aa56255'><LinkedInIcon style={{fill:'#0c2461', fontSize: '60px'}}/> </Link> 
  <Link href='https://twitter.com/Aloffawiy'> <TwitterIcon style={{fill:'#0c2461', fontSize: '60px'}}/> </Link> 
-  <Link href='https://github.com/Aloffawiy'> <GitHubIcon style={{fill:'#0c2461', fontSize: '60px'}}/> </Link>  
+  <Link href='https://github.com/Al-offawiy'> <GitHubIcon style={{fill:'#0c2461', fontSize: '60px'}}/> </Link>  
    </div>
 
 </div>
