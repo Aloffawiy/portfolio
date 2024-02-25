@@ -3,10 +3,9 @@ import ArrowCircleDownIcon from '@mui/icons-material/ArrowCircleDown';
 
 const Contact = () => {
     return(
-      <div className="education" style={{minHeight: '100vh'}}  >
-      <br/><br/><Typography  style={{color:'#0c2461', marginRight:'900px', fontSize:'70px'}} variant='h2'>Education &<br /> Experience</Typography>
-    <br/><br/><br/>
-    <Link href='/work'><ArrowCircleDownIcon  style={{color:'#0c2461',fontSize:'80px',marginLeft:'1300px'  }} ></ArrowCircleDownIcon></Link>
+      <div className="education" >
+      <br/><br/><Typography  style={{color:'#0c2461', marginRight:'900px', fontSize:'60px'}} variant='h2'>Education &<br /> Experience</Typography>
+    <Link href='/work'><ArrowCircleDownIcon  style={{color:'#0c2461',fontSize:'70px',marginLeft:'1200px'  }} ></ArrowCircleDownIcon></Link>
    
 
     <div className="edu-container">
