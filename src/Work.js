@@ -1,6 +1,6 @@
 import logo1 from './assets/deenX.png';
-// import logo2 from './assets/Mairuwa.png';
-import logo3 from './assets/Makkah.jpg';
+import logo2 from './assets/Mairuwa.png';
+import logo3 from './assets/Literalouge.png';
 import { Typography, Link}  from '@mui/material/'; 
 import ArrowCircleDownIcon from '@mui/icons-material/ArrowCircleDown';
 
@@ -20,7 +20,7 @@ const Work = () => {
     <div className="edu-div"  >
 
     <a  className='work' href="https://mairuwa.onrender.com/">
-      <img src={logo3} style={{width:'250px', borderRadius:'100%'}} alt='work-img' />
+      <img src={logo2} style={{width:'250px', height:'100px', borderRadius:'100%'}} alt='work-img' />
     <Typography variant='h4' ><strong style={{ color:'white'}}>Mairuwa</strong> </Typography>
     <Typography  style={{fontSize:'18px', color:'#0c2461', fontFamily:'Roboto, sans-serif'}} >Lorem ipsum dolor sit amet consectetur,<br/> adipisicing elit. Ea placeat odio. 
 </Typography>
@@ -28,7 +28,7 @@ const Work = () => {
 
 <a  className='work' href="https://ubill.onrender.com/user/payElectricity">
       <img src={logo3} style={{width:'250px', borderRadius:'100%'}} alt='work-img' />
-    <Typography variant='h4' ><strong style={{ color:'white'}}>uBill</strong> </Typography>
+    <Typography variant='h4' ><strong style={{ color:'white'}}>Literalouge</strong> </Typography>
     <Typography  style={{fontSize:'18px', color:'#0c2461', fontFamily:'Roboto, sans-serif'}} >Lorem ipsum dolor sit amet consectetur,<br/> adipisicing elit. Ea placeat odio. 
 </Typography>
 </a>

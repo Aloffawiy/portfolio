@@ -11,12 +11,12 @@ const Home = () => {
   <Typography style={{color:'#0c2461', fontSize:'60px', marginLeft:'15px'}}>Al</Typography>
   <Typography style={{color:'white', fontSize:'60px', }}>O</Typography>
 <figure class="ball"></figure>
-<Typography  style={{color:'#0c2461', fontSize:'60px', marginLeft:'1px', fontStyle:'oblique'}}>ffawiy</Typography> 
+<Typography  style={{color:'#0c2461', fontSize:'60px', marginLeft:'4px', fontStyle:'oblique'}}>ffawiy</Typography> 
 </div>
     <div className='home-container' >
      
   
-      <Typography variant='h5' className='info-msg'> <strong>
+      <Typography variant='h5' className='info-msg'> 
         I am Ajibade Fawas Muhammad also known as Aloffawiy. 
         As a full-stack developer, I bring a unique blend of expertise
        in both frontend and backend technologies, allowing me to create seamless and
@@ -27,7 +27,7 @@ const Home = () => {
              learning and staying updated with the latest industry trends. I 
               deliver high-quality solutions that exceed client expectations and contribute to the
                growth of their business.
-    </strong></Typography>
+   </Typography>
 
 
   <div className='details'>
