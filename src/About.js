@@ -13,10 +13,11 @@ const Home = () => {
 <figure class="ball"></figure>
 <Typography  style={{color:'#0c2461', fontSize:'60px', marginLeft:'4px', fontStyle:'oblique'}}>ffawiy</Typography> 
 </div>
+
     <div className='home-container' >
-     
-  
+    
       <Typography variant='h5' className='info-msg'> 
+      <Typography variant='h3'className='title-about'>About me</Typography>
         I am Ajibade Fawas Muhammad also known as Aloffawiy. 
         As a full-stack developer, I bring a unique blend of expertise
        in both frontend and backend technologies, allowing me to create seamless and
