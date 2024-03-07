@@ -1,7 +1,13 @@
-
+import { useNavigate } from "react-router-dom"
 
 const Home = () => {
+   const myHistory = useNavigate();
+
+      setTimeout(() => {
+myHistory('/about')
+      },5000)
     return(
+     
 <>
 <svg  viewBox="0 0 1320 300">
    <text x="23%" y="50%" dy=".35em" text-anchor="middle" className='name1'>Al</text>
