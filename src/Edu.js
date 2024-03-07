@@ -5,11 +5,11 @@ const Contact = () => {
     return(
       <>
 
-<div className="stage" style={{display:'flex'}}> 
-  <Typography className='name1' style={{color:'#0c2461', fontSize:'60px', marginLeft:'15px', }}>Al</Typography>
-  <Typography className='name2' style={{color:'white', fontSize:'60px',}}>O</Typography>
+<div className="stage" style={{display:'flex'}}>
+  <Typography style={{color:'#0c2461', fontSize:'60px', marginLeft:'17px'}}>Al</Typography>
+  <Typography style={{color:'white', fontSize:'60px', }}>o</Typography>
 <figure class="ball"></figure>
-<Typography className='name'  style={{color:'#0c2461', fontSize:'60px', marginLeft:'1px', fontStyle:'oblique'}}>ffawiy</Typography> 
+<Typography  style={{color:'#0c2461', fontSize:'60px', marginLeft:'2px', fontStyle:'oblique'}}>ffawiy</Typography> 
 </div>
 
       <Typography className='title-edu' variant='h3'>Education & Experience</Typography>

@@ -3,18 +3,18 @@ import {Link, Typography}  from '@mui/material/';
 import ArrowCircleDownIcon from '@mui/icons-material/ArrowCircleDown';
 
 
-const Home = () => {
+const About = () => {
     return(
 <>
 
 <div className="stage" style={{display:'flex'}}>
-  <Typography style={{color:'#0c2461', fontSize:'60px', marginLeft:'15px'}}>Al</Typography>
-  <Typography style={{color:'white', fontSize:'60px', }}>O</Typography>
+  <Typography style={{color:'#0c2461', fontSize:'60px', marginLeft:'17px'}}>Al</Typography>
+  <Typography style={{color:'white', fontSize:'60px', }}>o</Typography>
 <figure class="ball"></figure>
-<Typography  style={{color:'#0c2461', fontSize:'60px', marginLeft:'4px', fontStyle:'oblique'}}>ffawiy</Typography> 
+<Typography  style={{color:'#0c2461', fontSize:'60px', marginLeft:'2px', fontStyle:'oblique'}}>ffawiy</Typography> 
 </div>
 
-    <div className='home-container' >
+    <div className='about-container' >
     
       <Typography variant='h5' className='info-msg'> 
       <Typography variant='h3'className='title-about'>About me</Typography>
@@ -45,4 +45,4 @@ const Home = () => {
        
     )    
     }
-    export default Home;
+    export default About;

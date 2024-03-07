@@ -9,16 +9,16 @@ const Work = () => {
       <>
 
 <div className="stage" style={{display:'flex'}}>
-  <Typography className='name1' style={{color:'#0c2461', fontSize:'60px', marginLeft:'15px', }}>Al</Typography>
-  <Typography className='name2' style={{color:'white', fontSize:'60px',}}>O</Typography>
+  <Typography style={{color:'#0c2461', fontSize:'60px', marginLeft:'17px'}}>Al</Typography>
+  <Typography style={{color:'white', fontSize:'60px', }}>o</Typography>
 <figure class="ball"></figure>
-<Typography className='name'  style={{color:'#0c2461', fontSize:'60px', marginLeft:'1px', fontStyle:'oblique'}}>ffawiy</Typography> 
+<Typography  style={{color:'#0c2461', fontSize:'60px', marginLeft:'2px', fontStyle:'oblique'}}>ffawiy</Typography> 
 </div>
 
     <Typography variant='h3' className='title-work'>Works</Typography>
 
     <div className="edu-div"  >
-    <a  className='work' href="/">
+    <a  className='work' href="https://deenx.onrender.com">
       <img src={logo1} style={{width:'250px', borderRadius:'100%'}} alt='work-img' />
     <Typography variant='h4' ><strong style={{ color:'white'}}>deenX</strong> </Typography>
     <Typography  style={{ fontSize:'18px', maxWidth:'400px',  color:'#0c2461', fontFamily:'Roboto, sans-serif'}} >
@@ -36,7 +36,7 @@ const Work = () => {
 </Typography>
 </a>
 
-<a  className='work' href="https://ubill.onrender.com/user/payElectricity">
+<a  className='work' href="https://literalouge.onrender.com">
       <img src={logo3} style={{width:'250px', borderRadius:'100%'}} alt='work-img' />
     <Typography variant='h4' ><strong style={{ color:'white'}}>Literalouge</strong> </Typography>
     <Typography  style={{fontSize:'18px', color:'#0c2461', maxWidth:'400px',  fontFamily:'Roboto, sans-serif'}} > 
@@ -46,7 +46,7 @@ const Work = () => {
 </a>
     </div>
 
-    <Link href='/contact'><ArrowCircleDownIcon style={{color:'#0c2461',fontSize:'70px', marginLeft:'150px', marginTop:'30px'}}></ArrowCircleDownIcon></Link>
+    <Link href='/contact'><ArrowCircleDownIcon style={{color:'#0c2461',fontSize:'70px', marginLeft:'150px', marginTop:'20px'}}></ArrowCircleDownIcon></Link>
       </>  
     )    
     }

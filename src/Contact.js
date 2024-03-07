@@ -10,10 +10,10 @@ return(
 <>
     
 <div className="stage" style={{display:'flex'}}>
-  <Typography className='name1' style={{color:'#0c2461', fontSize:'60px', marginLeft:'15px', }}>Al</Typography>
-  <Typography className='name2' style={{color:'white', fontSize:'60px',}}>O</Typography>
+  <Typography style={{color:'#0c2461', fontSize:'60px', marginLeft:'17px'}}>Al</Typography>
+  <Typography style={{color:'white', fontSize:'60px', }}>o</Typography>
 <figure class="ball"></figure>
-<Typography className='name'  style={{color:'#0c2461', fontSize:'60px', marginLeft:'1px', fontStyle:'oblique'}}>ffawiy</Typography> 
+<Typography  style={{color:'#0c2461', fontSize:'60px', marginLeft:'2px', fontStyle:'oblique'}}>ffawiy</Typography> 
 </div>
     
     <Typography variant='h3'className='title-contact'>Contact me!</Typography>
@@ -29,8 +29,8 @@ return(
 
 </div>
 
-<div className="connect1" style={{color:'white', paddingRight:'120px'}}>
-<Typography style={{color:'#0c2461', fontSize: '35px'}}> <strong> Connect with me</strong> </Typography><br />
+<div  style={{color:'white', paddingRight:'120px'}}>
+
 <Link  href='https://www.linkedin.com/in/fawas-ajibade-80aa56255'><LinkedInIcon style={{fill:'#0c2461', fontSize: '60px'}}/> </Link> 
  <Link href='https://twitter.com/Aloffawiy'> <TwitterIcon style={{fill:'#0c2461', fontSize: '60px'}}/> </Link> 
   <Link href='https://github.com/Al-offawiy'> <GitHubIcon style={{fill:'#0c2461', fontSize: '60px'}}/> </Link>  
