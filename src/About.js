@@ -14,11 +14,13 @@ const About = () => {
 <Typography  style={{color:'#0c2461', fontSize:'60px', marginLeft:'2px', fontStyle:'oblique'}}>ffawiy</Typography> 
 </div>
 
+<Typography variant='h3'  className='title-about'>About me</Typography>
+
     <div className='about-container' >
     
       <Typography variant='h5' className='info-msg'> 
-      <Typography variant='h3'className='title-about'>About me</Typography>
-        I am Ajibade Fawas Muhammad also known as Aloffawiy. 
+      
+        I am Ajibade Fawas Muhammad, also known as Aloffawiy. 
         As a full-stack developer, I bring a unique blend of expertise
        in both frontend and backend technologies, allowing me to create seamless and
         dynamic web and mobile applications from start to finish. With a passion for clean code

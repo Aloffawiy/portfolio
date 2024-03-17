@@ -13,7 +13,7 @@ myHistory('/about')
    <text x="20%" y="50%" dy=".35em" text-anchor="middle" className='name1'>Al</text>
 4<text x="36%" y="50%" dy=".35em" text-anchor="middle" className='name2'>o</text>
 
-<text x="71%" y="50%" dy=".35em" text-anchor="middle" className='name3' >ffawiy</text>
+<text x="69%" y="50%" dy=".35em" text-anchor="middle" className='name3' >ffawiy</text>
 </svg>  
 
       </>  
