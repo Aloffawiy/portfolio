@@ -139,6 +139,9 @@ background-color:#6275e4;
   text-align: center;
   margin-top: 50px;
  }
+ .work:active{
+  background-color: #6275e4;
+ }
  .title-work{
   color:#0c2461;
   padding-left:600px;
@@ -247,6 +250,7 @@ flex-direction: column;
   .work{
     margin-bottom: 50px;
   }
+  
 
 .title-contact{
   color:#0c2461;
