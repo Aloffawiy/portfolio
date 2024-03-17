@@ -36,7 +36,7 @@ const Contact = () => {
     </a>
 
     </div>
-   <a href='/work 'className='nav-a' style={{marginTop:'30px'}} ><button className='nav-btn'>⇩</button></a>
+   <a href='/work 'className='nav-a' style={{marginTop:'30px'}} ><button className='nav-btn'>🠋</button></a>
    
       </>  
     )    

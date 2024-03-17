@@ -37,7 +37,7 @@ const About = () => {
    </div>
 
         </div>
-    <a href='/experience' className='nav-a' style={{marginTop:'30px'}} ><button className='nav-btn'>⇩</button></a>
+    <a href='/experience' className='nav-a' style={{marginTop:'30px'}} ><button className='nav-btn'>🠋</button></a>
 
       </>
        
