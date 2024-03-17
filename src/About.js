@@ -14,8 +14,6 @@ const About = () => {
 <Typography  style={{color:'#0c2461', fontSize:'60px', marginLeft:'2px', fontStyle:'oblique'}}>ffawiy</Typography> 
 </div>
 
-<Typography variant='h3'  className='title-about'>About me</Typography>
-
     <div className='about-container' >
     
       <Typography variant='h5' className='info-msg'> 
