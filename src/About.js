@@ -1,6 +1,6 @@
 import profilePic from './assets/myPic.jpeg' 
 import {Link, Typography}  from '@mui/material/';
-import ArrowCircleDownIcon from '@mui/icons-material/ArrowCircleDown';
+
 
 
 const About = () => {
@@ -23,7 +23,7 @@ const About = () => {
        in both frontend and backend technologies, allowing me to create seamless and
         dynamic web and mobile applications from start to finish. With a passion for clean code
          and user-centric design. Leveraging my skills in languages
-           such as JavaScript, Python, and Java, and tools and technologies like Reactjs, React Native, Node.js 
+           such as JavaScript, Python, Java, and other tools and technologies like Reactjs, React Native, Node.js 
             HTML, CSS, mongoDb, mongoose, mySql, and many more, i'm committed to continuous
              learning and staying updated with the latest industry trends. I 
               deliver high-quality solutions that exceed client expectations and contribute to the
@@ -37,9 +37,7 @@ const About = () => {
    </div>
 
         </div>
-    <Link href='/experience' className='pointer' ><ArrowCircleDownIcon 
-    style={{color:'#0c2461', fontSize:'70px', marginLeft:'150px', }} />
-  </Link>
+    <a href='/experience' className='nav-a' style={{marginTop:'30px'}} ><button className='nav-btn'>⇩</button></a>
 
       </>
        

@@ -1,8 +1,8 @@
 import logo1 from './assets/deenX.png';
 import logo2 from './assets/Mairuwa.png';
 import logo3 from './assets/Literalouge.png';
-import { Typography, Link}  from '@mui/material/'; 
-import ArrowCircleDownIcon from '@mui/icons-material/ArrowCircleDown';
+import { Typography,}  from '@mui/material/'; 
+
 
 const Work = () => {
     return(
@@ -41,12 +41,12 @@ const Work = () => {
     <Typography variant='h4' ><strong style={{ color:'white'}}>Literalouge</strong> </Typography>
     <Typography  style={{fontSize:'18px', color:'#0c2461', maxWidth:'400px',  fontFamily:'Roboto, sans-serif'}} > 
     Literalouge is platform where users can create an intellectual outpost
-    and also outline thier views and opinion on the topic dicussed within it.
+    and also outline thier views and opinions on the topic dicussed within it.
 </Typography>
 </a>
     </div>
 
-    <Link href='/contact'><ArrowCircleDownIcon style={{color:'#0c2461',fontSize:'70px', marginLeft:'150px', marginTop:'20px'}}></ArrowCircleDownIcon></Link>
+    <a href='/contact' className='nav-a' style={{marginTop:'30px'}}><button className='nav-btn'>⇩</button></a>
       </>  
     )    
     }
