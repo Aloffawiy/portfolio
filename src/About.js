@@ -1,5 +1,7 @@
 import profilePic from './assets/myPic.jpeg' 
 import {Link, Typography}  from '@mui/material/';
+import ArrowCircleDownIcon from '@mui/icons-material/ArrowCircleDown';
+
 
 
 
@@ -37,8 +39,7 @@ const About = () => {
    </div>
 
         </div>
-    <a href='/experience' className='nav-a' style={{marginTop:'30px'}} ><button className='nav-btn'>🠋</button></a>
-
+    <a href='/experience' className='nav-a' style={{ display: 'inline-block', lineHeight: '0' }}> <ArrowCircleDownIcon style={{fill:"#0c2461", fontSize:"70px", verticalAlign: "middle"}}/> </a>
       </>
        
     )    

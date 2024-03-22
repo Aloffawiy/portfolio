@@ -48,12 +48,12 @@ svg text {
 @keyframes stroke {
   0%   {
     fill: #0c2461; stroke: white;
-    stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
+    stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width:10;
   }
   70%  {fill: #0c2461; stroke:white; }
-  80%  {fill: #0c2461; stroke: white; stroke-width: 3; }
+  80%  {fill: #0c2461; stroke: white; stroke-width: 8; }
   100% {
-    fill: white; stroke: rgba(54,95,160,0); 
+    fill: white; stroke: #0c2461; 
     stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
   }
 }
@@ -164,17 +164,21 @@ padding-bottom:90px;
 
 
 
-@media only screen and (max-width: 600px) { /* Adjust breakpoint as needed for phones */
+@media screen and (max-width: 600px) { /* Adjust breakpoint as needed for phones */
   svg{
     padding: 120px 0 120px 0;
     display: block;
     margin-right:30px;
   }
   .nav-a{
-    display:flex;
-   justify-content:center;
-  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -40% 50%  0;  
+    padding-bottom: 0;
+    margin-bottom: 0;
   }
+  
   .home-container {
     flex-direction: column; /* Reverse flex direction for phones */
   }
@@ -303,15 +307,8 @@ flex-direction: column;
 
 .nav-a{
   text-decoration:none;
- 
+  position: relative;
+  top: -140px;
+  overflow-y: hidden;
 }
 
-.nav-btn{
-  background-color: #0c2461;
-  color:white;
-  font-size: 50px;
-border-radius:100%;
-height: 70px;
-width:60px;
-border-color: white;
-}
