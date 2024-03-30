@@ -2,7 +2,7 @@ import logo1 from './assets/deenX.png';
 import logo2 from './assets/Mairuwa.png';
 import logo3 from './assets/Literalouge.png';
 import { Typography,}  from '@mui/material/'; 
-import ArrowCircleDownIcon from '@mui/icons-material/ArrowCircleDown';
+
 
 
 const Work = () => {
@@ -47,7 +47,7 @@ const Work = () => {
 </a>
     </div>
 
-    <a href='/contact' className='nav-a'> <ArrowCircleDownIcon style={{fill:"#0c2461", fontSize:"70px", }}/> </a>
+    <a href='/contact' className='nav-a'>🠋</a>
       </>  
     )    
     }

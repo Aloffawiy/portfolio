@@ -1,5 +1,5 @@
 import {Typography,}  from '@mui/material/'; 
-import ArrowCircleDownIcon from '@mui/icons-material/ArrowCircleDown';
+
 
 
 const Contact = () => {
@@ -37,7 +37,7 @@ const Contact = () => {
     </a>
 
     </div>
-    <a href='/work' className='nav-a'> <ArrowCircleDownIcon style={{fill:"#0c2461", fontSize:"70px", }}/> </a>
+    <a href='/work' className='nav-a'>🠋</a>
    
       </>  
     )    
