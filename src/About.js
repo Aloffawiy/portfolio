@@ -37,7 +37,7 @@ const About = () => {
    </div>
 
         </div>
-    <a href='/experience' className='nav-a'> ⇩ </a>
+    <a href='/experience' className='nav-a'>⇩</a>
          
       </>
        

@@ -47,7 +47,7 @@ const Work = () => {
 </a>
     </div>
 
-    <a href='/contact' className='nav-a'>  ⇩  </a>
+    <a href='/contact' className='nav-a'>⇩</a>
       </>  
     )    
     }

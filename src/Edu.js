@@ -37,7 +37,7 @@ const Contact = () => {
     </a>
 
     </div>
-    <a href='/work' className='nav-a'>  ⇩  </a>
+    <a href='/work' className='nav-a'>⇩</a>
    
       </>  
     )    
