@@ -28,7 +28,7 @@ const Work = () => {
 </Typography>
     </a>
 
-    <a  className='work' href="https://deenx-frontend.onrender.com/">
+    <a  className='work' href="https://deenx-frontend.onrender.com">
       <img src={logo2} style={{width:'250px', height:'250px',}} alt='work-img' />
     <Typography variant='h4' ><strong style={{ color:'white'}}>Mairuwa</strong> </Typography>
     <Typography  style={{fontSize:'18px', maxWidth:'400px', color:'#0c2461', fontFamily:'Roboto, sans-serif'}} >
