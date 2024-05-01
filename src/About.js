@@ -9,7 +9,7 @@ const About = () => {
 
 <div className="stage" style={{display:'flex'}}>
   <Typography style={{color:'#0c2461', fontSize:'60px', marginLeft:'17px'}}>Ọ̀kín</Typography>
-<figure class="ball">🌐</figure>
+<figure class="ball"></figure>
 </div>
 
     <div className='about-container' >
