@@ -10,7 +10,7 @@
         width: 70%;
         animation: fadeInUp 1s ease forwards, fadeOutUp 1s ease forwards 4s;
         #lo {
-            // animation: fill 0.5s ease forwards 3.5s;
+             animation: fill 0.5s ease forwards 3.5s;
             #roar {
                 #roar-one {
                     stroke-dasharray: 785;
