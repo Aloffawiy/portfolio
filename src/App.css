@@ -13,13 +13,6 @@ body{
 
 
 /* HOME */
-.name2{
-   font-size: 40px; 
-   padding-left: 800px;
-   animation: stroke 5s infinite alternate;
-  stroke-width: 0;
-  stroke:#0c2461;
-}
  svg {
   margin-top: 150px;
   font-family: 'Russo One', sans-serif;
@@ -30,8 +23,7 @@ body{
 }
 
 .name1 {
-  font-size: 250px; 
-   margin-left:15px; 
+  font-size: 300px; 
   animation: stroke 5s infinite alternate;
   stroke-width: 2;
   stroke: white;
@@ -163,10 +155,7 @@ padding-bottom:90px;
  .name1 {
    font-size: 520px; 
  }
- .name2{
-  display: none;
- }
-
+ 
   .nav-a{
     margin: 0 auto 30px; 
   }
@@ -287,11 +276,11 @@ flex-direction: column;
   height: 35px;
   position: absolute;
   width: 35px;
-  margin-left:17px;
+  margin-left:18px;
   border-width: 5px;
   border-style: solid;
   border-color: white;
-  margin-top: 21px;
+  margin-top: 22px;
 }
 
 

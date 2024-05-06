@@ -9,11 +9,9 @@ myHistory('/about')
     return(
      
 <>
-<svg  viewBox="100 -200 1200 500" >
+<svg  viewBox="100 100 1600 600" >
+   <text x="55%" y="50%" dy=".35em" text-anchor="middle" className='name1'>Ọ̀kín</text>
 
-   <text x="60%" y="-20%" dy=".35em" text-anchor="middle" className='name1'>Ọ̀kín</text>
- 
-  <text  x="50%" y="10%" dy=".35em" className='name2'>technologies</text>
 </svg>  
 
       </>  
