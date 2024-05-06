@@ -7,7 +7,7 @@ const Contact = () => {
       <>
 
 <div className="stage" style={{display:'flex'}}>
-  <Typography style={{color:'#0c2461', fontSize:'60px', marginLeft:'17px'}}>Ọ̀kín</Typography>
+  <Typography style={{color:'#0c2461', fontSize:'60px', marginLeft:'17px'}}>Ọkín</Typography>
 <figure class="ball"></figure>
 </div>
 
